@@ -4,6 +4,10 @@ Collecting papers about Self-supervised Learning.
 
 
 
+Will be updated.
+
+
+
 ## Identification / Verification / Classification 
 
 | Conference / Journal | Paper                                                        | Datasets   | Performance     |
@@ -27,7 +31,7 @@ Collecting papers about Self-supervised Learning.
 
 
 
-## Detection
+## Detection / Recognition
 
 | Conference / Journal | Paper                                                        | Datsets  | Performance   |
 | -------------------- | ------------------------------------------------------------ | -------- | ------------- |
@@ -50,12 +54,35 @@ Collecting papers about Self-supervised Learning.
 
 
 
+## Geneartion
+
+| Conference / Journal | Paper                                                        | Task            |
+| -------------------- | ------------------------------------------------------------ | --------------- |
+| CVPR 2020            | [StyleRig: Rigging StyleGAN for 3D Control over Portrait Images](https://arxiv.org/pdf/2004.00121.pdf) | Portrait Images |
+|                      |                                                              |                 |
+|                      |                                                              |                 |
+
+
+
+## Video
+
+| Conference / Journal | Paper                                                        | Task                    | Datasets   | Performance    |
+| -------------------- | ------------------------------------------------------------ | ----------------------- | ---------- | -------------- |
+| TPAMI                | [A Review on Deep Learning Techniques for Video Prediction](https://arxiv.org/pdf/2004.05214.pdf) | Video prediction review | -          | -              |
+| CVPR 2020            | [Distilled Semantics for Comprehensive Scene Understanding from Videos](https://arxiv.org/pdf/2003.14030.pdf) | Scene Understanding     | KITTI 2015 | Sq Rel : 0.748 |
+|                      |                                                              |                         |            |                |
+
+
+
 ## Others
 
-| Conference / Journal | Paper                                                        | Task                    | Performance             |
-| -------------------- | ------------------------------------------------------------ | ----------------------- | ----------------------- |
-| CVPR 2020            | [Flow2Stereo: Effective Self-Supervised Learning of Optical Flow and Stereo Matching](https://arxiv.org/pdf/2004.02138.pdf) | Optical flow            | F1 : 7.63% (KITTI 2012) |
-| CVPR 2020            | [Self-Supervised Viewpoint Learning From Image Collections](https://arxiv.org/pdf/2004.01793.pdf) | Viewpoint learning      | MAE : 4.0 (BIWI)        |
-| TPAMI                | [A Review on Deep Learning Techniques for Video Prediction](https://arxiv.org/pdf/2004.05214.pdf) | Video prediction review | -                       |
-| CVPR 2020            | [Self-Supervised Scene De-occlusion](https://arxiv.org/pdf/2004.02788.pdf) | Remove occlusion        | mAP : 29.3 % (KINS)     |
+| Conference / Journal | Paper                                                        | Task                | Performance              |
+| -------------------- | ------------------------------------------------------------ | ------------------- | ------------------------ |
+| CVPR 2020            | [Flow2Stereo: Effective Self-Supervised Learning of Optical Flow and Stereo Matching](https://arxiv.org/pdf/2004.02138.pdf) | Optical Flow        | F1 : 7.63% (KITTI 2012)  |
+| CVPR 2020            | [Self-Supervised Viewpoint Learning From Image Collections](https://arxiv.org/pdf/2004.01793.pdf) | Viewpoint learning  | MAE : 4.0 (BIWI)         |
+| CVPR 2020            | [Self-Supervised Scene De-occlusion](https://arxiv.org/pdf/2004.02788.pdf) | Remove occlusion    | mAP : 29.3 % (KINS)      |
+| CVPR 2020            | [How Useful is Self-Supervised Pretraining for Visual Tasks?](https://arxiv.org/pdf/2003.14323.pdf) | Pretraining         | -                        |
+| CVPR 2020            | [Distilled Semantics for Comprehensive Scene Understanding from Videos](https://arxiv.org/pdf/2003.14030.pdf) | Distilled Semantics | -                        |
+| CVPR 2020            | [Learning by Analogy : Reliable Supervision from Transformations for Unsupervised Optical Flow Estimation](https://arxiv.org/pdf/2003.13045.pdf) | Optical Flow        | F1 : 11.79% (KITTI 2015) |
+| CVPR 2020            | [Adversarial Robustness: From Self-Supervised Pre-Training to Fine-Tuning](https://arxiv.org/pdf/2003.12862.pdf) | Pretraining         | -                        |
 
