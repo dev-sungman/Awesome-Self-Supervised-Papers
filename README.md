@@ -1,6 +1,6 @@
-# Awesome-Self-supervised-Papers
+# Awesome-Self-Supervised-Papers
 
-Collecting papers about Self-supervised Learning.
+Collecting papers about Self-Supervised Learning.
 
 
 
