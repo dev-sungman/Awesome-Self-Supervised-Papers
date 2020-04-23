@@ -2,9 +2,9 @@
 
 Collecting papers about Self-Supervised Learning.
 
-**Last Update : 2020. 04. 19.**
+**Last Update : 2020. 04. 23.**
 
-* Made a NLP section 
+* Update some papers about Contrastive Learning
 * Update some papers in CVPR 2020
 
 
