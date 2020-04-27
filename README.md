@@ -21,9 +21,11 @@ Any contributions, comments are welcome.
 
 | Conference / Journal | Paper                                                        | ImageNet Acc (Top 1). |
 | -------------------- | ------------------------------------------------------------ | --------------------- |
+| CVPR 2006            | [Dimensionality Reduction by Learning an Invariant Mapping](http://yann.lecun.com/exdb/publis/pdf/hadsell-chopra-lecun-06.pdf) | -                     |
 | arXiv:1807.03748     | [Representation learning with contrastive predictive coding (CPC)](https://arxiv.org/pdf/1807.03748.pdf) | -                     |
 | arXiv:1911.05722     | [Momentum Contrast for Unsupervised Visual Representation Learning (MoCo)](https://arxiv.org/pdf/1911.05722.pdf) | 60.6 %                |
 | arXiv:1905.09272     | [Data-Efficient Image Recognition contrastive predictive coding (CPC v2)](https://arxiv.org/pdf/1905.09272.pdf) | 63.8 %                |
+| arXiv:1906.05849     | [Contrastive Multiview Coding](https://arxiv.org/pdf/1906.05849.pdf) | 66.2 %                |
 | arXiv:2002.05709     | [A Simple Framework for Contrastive Learning of Visual Representations (SimCLR)](https://arxiv.org/pdf/2002.05709.pdf) | 69.3 %                |
 | arXiv:2003.12338     | [Improved Baselines with Momentum Contrastive Learning(MoCo v2)](https://arxiv.org/pdf/2003.04297.pdf) | 71.1 %                |
 | arXiv:2003.05438     | [Rethinking Image Mixture for Unsupervised Visual Representation Learning](https://arxiv.org/pdf/2003.05438.pdf) | 65.9 %                |
@@ -48,6 +50,9 @@ Any contributions, comments are welcome.
 | -------------------- | ------------------------------------------------------------ | -------------------- |
 | ICML 2018            | [Mutual Information Neural Estimation](https://arxiv.org/pdf/1801.04062.pdf) | Mutual Information   |
 | NeurIPS 2019         | [Wasserstein Dependency Measure for Representation Learning](http://papers.nips.cc/paper/9692-wasserstein-dependency-measure-for-representation-learning.pdf) | Mutual Information   |
+| ICLR 2019            | [Learning Deep Representations by Mutual Information Estimation and Maximization](https://arxiv.org/pdf/1808.06670.pdf) | Mutual Information   |
+| arXiv:1903.12355     | [Local Aggregation for Unsupervised Learning of Visual Embeddings](https://arxiv.org/pdf/1903.12355.pdf) | Local Aggregation    |
+| arXiv:1906.00910     | [Learning Representations by Maximizing Mutual Information Across Views](https://arxiv.org/pdf/1906.00910.pdf) | Mutual Information   |
 | ICLR 2020            | [On Mutual Information Maximization for Representation Learning](https://arxiv.org/pdf/1907.13625.pdf) | Mutual Information   |
 | CVPR 2020            | [How Useful is Self-Supervised Pretraining for Visual Tasks?](https://arxiv.org/pdf/2003.14323.pdf) | -                    |
 | CVPR 2020            | [Adversarial Robustness: From Self-Supervised Pre-Training to Fine-Tuning](https://arxiv.org/pdf/2003.12862.pdf) | Adversarial Training |
