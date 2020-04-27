@@ -2,10 +2,9 @@
 
 Collecting papers about Self-Supervised Learning.
 
-**Last Update : 2020. 04. 23.**
+**Last Update : 2020. 04. 27.**
 
-* Update some papers about Contrastive Learning
-* Update some papers in CVPR 2020
+* Update some papers in Mutual Information. (MILA, DeepMind, ...)
 
 
 
