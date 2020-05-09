@@ -2,9 +2,9 @@
 
 Collecting papers about Self-Supervised Learning.
 
-**Last Update : 2020. 04. 27.**
+**Last Update : 2020. 05. 09.**
 
-* Update some papers in Mutual Information. (MILA, DeepMind, ...)
+* Update some papers on arXiv in may.
 
 
 
@@ -28,6 +28,7 @@ Any contributions, comments are welcome.
 | arXiv:2002.05709     | [A Simple Framework for Contrastive Learning of Visual Representations (SimCLR)](https://arxiv.org/pdf/2002.05709.pdf) | 69.3 %                |
 | arXiv:2003.12338     | [Improved Baselines with Momentum Contrastive Learning(MoCo v2)](https://arxiv.org/pdf/2003.04297.pdf) | 71.1 %                |
 | arXiv:2003.05438     | [Rethinking Image Mixture for Unsupervised Visual Representation Learning](https://arxiv.org/pdf/2003.05438.pdf) | 65.9 %                |
+| arXiv:2004.05554     | [Feature Lenses: Plug-and-play Neural Modules for Transformation-Invariant Visual Representations](https://arxiv.org/pdf/2004.05554.pdf) |                       |
 
 
 
@@ -79,6 +80,7 @@ Any contributions, comments are welcome.
 | CVPR 2020            | [Novel View Synthesis of Dynamic Scenes with Globally Coherent Depths from a Monocular Camera](https://arxiv.org/pdf/2004.01294.pdf) | -               | -               |
 | CVPR 2020            | [Unsupervised Intra-domain Adaptation for Semantic Segmentation through Self-Supervision](https://arxiv.org/pdf/2004.07703.pdf) | GTA5->Cityscape | mIoU : 46.3     |
 | CVPR 2020            | [D3VO : Deep Depth, Deep Pose and Deep Uncertainty for Monocular Visual Odometry](https://arxiv.org/pdf/2003.01060.pdf) | -               | -               |
+| CVPR 2020            | [Self-Supervised Human Depth Estimation from Monocular Videos](https://arxiv.org/pdf/2005.03358.pdf) | -               | -               |
 
 
 
@@ -113,17 +115,20 @@ Any contributions, comments are welcome.
 
 ## Others
 
-| Conference / Journal | Paper                                                        | Task                     | Performance              |
-| -------------------- | ------------------------------------------------------------ | ------------------------ | ------------------------ |
-| CVPR 2020            | [Flow2Stereo: Effective Self-Supervised Learning of Optical Flow and Stereo Matching](https://arxiv.org/pdf/2004.02138.pdf) | Optical Flow             | F1 : 7.63% (KITTI 2012)  |
-| CVPR 2020            | [Self-Supervised Viewpoint Learning From Image Collections](https://arxiv.org/pdf/2004.01793.pdf) | Viewpoint learning       | MAE : 4.0 (BIWI)         |
-| CVPR 2020            | [Self-Supervised Scene De-occlusion](https://arxiv.org/pdf/2004.02788.pdf) | Remove occlusion         | mAP : 29.3 % (KINS)      |
-| CVPR 2020            | [Distilled Semantics for Comprehensive Scene Understanding from Videos](https://arxiv.org/pdf/2003.14030.pdf) | Scene Understanding      | -                        |
-| CVPR 2020            | [Learning by Analogy : Reliable Supervision from Transformations for Unsupervised Optical Flow Estimation](https://arxiv.org/pdf/2003.13045.pdf) | Optical Flow             | F1 : 11.79% (KITTI 2015) |
-| CVPR 2020            | [D3Feat: Joint Learning of Dense Detection and Description of 3D Local Features](https://arxiv.org/pdf/2003.03164.pdf) | 3D Local Features        | -                        |
-| CVPR 2020            | [SpeedNet: Learning the Speediness in Videos](https://arxiv.org/pdf/2004.06130.pdf) | predict the "speediness" | -                        |
-| CVPR 2020            | [Action Segmentation with Joint Self-Supervised Temporal Domain Adaptation](https://arxiv.org/pdf/2003.02824.pdf) | Action Segmentation      | F1@10 : 83.0 (GTEA)      |
-| CVPR 2020            | [MVP: Unified Motion and Visual Self-Supervised Learning for Large-Scale Robotic Navigation](https://arxiv.org/pdf/2003.00667.pdf) | Robotic Navigation       | -                        |
+| Conference / Journal | Paper                                                        | Task                            | Performance                |
+| -------------------- | ------------------------------------------------------------ | ------------------------------- | -------------------------- |
+| CVPR 2020            | [Flow2Stereo: Effective Self-Supervised Learning of Optical Flow and Stereo Matching](https://arxiv.org/pdf/2004.02138.pdf) | Optical Flow                    | F1 : 7.63% (KITTI 2012)    |
+| CVPR 2020            | [Self-Supervised Viewpoint Learning From Image Collections](https://arxiv.org/pdf/2004.01793.pdf) | Viewpoint learning              | MAE : 4.0 (BIWI)           |
+| CVPR 2020            | [Self-Supervised Scene De-occlusion](https://arxiv.org/pdf/2004.02788.pdf) | Remove occlusion                | mAP : 29.3 % (KINS)        |
+| CVPR 2020            | [Distilled Semantics for Comprehensive Scene Understanding from Videos](https://arxiv.org/pdf/2003.14030.pdf) | Scene Understanding             | -                          |
+| CVPR 2020            | [Learning by Analogy : Reliable Supervision from Transformations for Unsupervised Optical Flow Estimation](https://arxiv.org/pdf/2003.13045.pdf) | Optical Flow                    | F1 : 11.79% (KITTI 2015)   |
+| CVPR 2020            | [D3Feat: Joint Learning of Dense Detection and Description of 3D Local Features](https://arxiv.org/pdf/2003.03164.pdf) | 3D Local Features               | -                          |
+| CVPR 2020            | [SpeedNet: Learning the Speediness in Videos](https://arxiv.org/pdf/2004.06130.pdf) | predict the "speediness"        | -                          |
+| CVPR 2020            | [Action Segmentation with Joint Self-Supervised Temporal Domain Adaptation](https://arxiv.org/pdf/2003.02824.pdf) | Action Segmentation             | F1@10 : 83.0 (GTEA)        |
+| CVPR 2020            | [MVP: Unified Motion and Visual Self-Supervised Learning for Large-Scale Robotic Navigation](https://arxiv.org/pdf/2003.00667.pdf) | Robotic Navigation              | -                          |
+| arXiv:2003.06734     | [Active Perception and Representation for Robotic Manipulation](https://arxiv.org/pdf/2003.06734.pdf) | Robot manipulation              | -                          |
+| arXiv:2005.01655     | [Words aren’t enough, their order matters: On the Robustness of Grounding Visual Referring Expressions](https://arxiv.org/pdf/2005.01655.pdf) | Visual Referring Expressions    | -                          |
+| arXiv:2004.11362     | [Supervised Contrastive Learning](https://arxiv.org/pdf/2004.11362.pdf) | Supervised Contrastive Learning | ImageNet Acc: 80.8 (Top-1) |
 
 
 
@@ -136,6 +141,7 @@ Any contributions, comments are welcome.
 | ACL 2020             | [TriggerNER: Learning with Entity Triggers as Explanations for Named Entity Recognition](https://arxiv.org/pdf/2004.07493.pdf) | -        | -                       |
 | arXiv:1909.11942     | [ALBERT: A Lite BERT For Self-Supervised Learning of Language Representations](https://arxiv.org/pdf/1909.11942.pdf) | GLUE     | Avg : 89.4              |
 | AAAI 2020            | [Learning to Compare for Better Training and Evaluation of Open Domain Natural Language Generation Models](https://arxiv.org/pdf/2002.05058.pdf) | -        | -                       |
+| ACL 2020             | [Contrastive Self-Supervised Learning for Commonsense Reasoning](https://arxiv.org/pdf/2005.00669.pdf) | PDP-60   | 90.0%                   |
 
 
 
