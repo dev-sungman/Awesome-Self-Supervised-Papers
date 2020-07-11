@@ -2,9 +2,9 @@
 
 Collecting papers about Self-Supervised Learning.
 
-**Last Update : 2020. 05. 09.**
+**Last Update : 2020. 07. 11.**
 
-* Update some papers on arXiv in may.
+* Update SimCLR v2, BYOL
 
 
 
@@ -18,17 +18,19 @@ Any contributions, comments are welcome.
 
 ### Contrastive Learning
 
-| Conference / Journal | Paper                                                        | ImageNet Acc (Top 1). |
-| -------------------- | ------------------------------------------------------------ | --------------------- |
-| CVPR 2006            | [Dimensionality Reduction by Learning an Invariant Mapping](http://yann.lecun.com/exdb/publis/pdf/hadsell-chopra-lecun-06.pdf) | -                     |
-| arXiv:1807.03748     | [Representation learning with contrastive predictive coding (CPC)](https://arxiv.org/pdf/1807.03748.pdf) | -                     |
-| arXiv:1911.05722     | [Momentum Contrast for Unsupervised Visual Representation Learning (MoCo)](https://arxiv.org/pdf/1911.05722.pdf) | 60.6 %                |
-| arXiv:1905.09272     | [Data-Efficient Image Recognition contrastive predictive coding (CPC v2)](https://arxiv.org/pdf/1905.09272.pdf) | 63.8 %                |
-| arXiv:1906.05849     | [Contrastive Multiview Coding](https://arxiv.org/pdf/1906.05849.pdf) | 66.2 %                |
-| arXiv:2002.05709     | [A Simple Framework for Contrastive Learning of Visual Representations (SimCLR)](https://arxiv.org/pdf/2002.05709.pdf) | 69.3 %                |
-| arXiv:2003.12338     | [Improved Baselines with Momentum Contrastive Learning(MoCo v2)](https://arxiv.org/pdf/2003.04297.pdf) | 71.1 %                |
-| arXiv:2003.05438     | [Rethinking Image Mixture for Unsupervised Visual Representation Learning](https://arxiv.org/pdf/2003.05438.pdf) | 65.9 %                |
-| arXiv:2004.05554     | [Feature Lenses: Plug-and-play Neural Modules for Transformation-Invariant Visual Representations](https://arxiv.org/pdf/2004.05554.pdf) |                       |
+| Conference / Journal | Paper                                                        | ImageNet Acc (Top 1).          |
+| -------------------- | ------------------------------------------------------------ | ------------------------------ |
+| CVPR 2006            | [Dimensionality Reduction by Learning an Invariant Mapping](http://yann.lecun.com/exdb/publis/pdf/hadsell-chopra-lecun-06.pdf) | -                              |
+| arXiv:1807.03748     | [Representation learning with contrastive predictive coding (CPC)](https://arxiv.org/pdf/1807.03748.pdf) | -                              |
+| arXiv:1911.05722     | [Momentum Contrast for Unsupervised Visual Representation Learning (MoCo)](https://arxiv.org/pdf/1911.05722.pdf) | 60.6 %                         |
+| arXiv:1905.09272     | [Data-Efficient Image Recognition contrastive predictive coding (CPC v2)](https://arxiv.org/pdf/1905.09272.pdf) | 63.8 %                         |
+| arXiv:1906.05849     | [Contrastive Multiview Coding](https://arxiv.org/pdf/1906.05849.pdf) | 66.2 %                         |
+| arXiv:2002.05709     | [A Simple Framework for Contrastive Learning of Visual Representations (SimCLR)](https://arxiv.org/pdf/2002.05709.pdf) | 69.3 %                         |
+| arXiv:2003.12338     | [Improved Baselines with Momentum Contrastive Learning(MoCo v2)](https://arxiv.org/pdf/2003.04297.pdf) | 71.1 %                         |
+| arXiv:2003.05438     | [Rethinking Image Mixture for Unsupervised Visual Representation Learning](https://arxiv.org/pdf/2003.05438.pdf) | 65.9 %                         |
+| arXiv:2004.05554     | [Feature Lenses: Plug-and-play Neural Modules for Transformation-Invariant Visual Representations](https://arxiv.org/pdf/2004.05554.pdf) |                                |
+| arXiv:2006.10029     | [Big Self-Supervised Models are Strong Semi-Supervised Learners](https://arxiv.org/pdf/2006.10029.pdf) | 74.3 % (10% label)             |
+| arXiv:2006.07733     | [Bootstrap Your Own Latent A New Approach to Self-Supervised Learning](https://arxiv.org/pdf/2006.07733.pdf) | 74.3 % (linear classification) |
 
 
 
