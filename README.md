@@ -2,9 +2,9 @@
 
 Collecting papers about Self-Supervised Learning.
 
-**Last Update : 2020. 07. 11.**
+**Last Update : 2020. 08. 03.**
 
-* Update SimCLR v2, BYOL
+* Update ECCV 2020
 
 
 
@@ -59,6 +59,7 @@ Any contributions, comments are welcome.
 | CVPR 2020            | [How Useful is Self-Supervised Pretraining for Visual Tasks?](https://arxiv.org/pdf/2003.14323.pdf) | -                    |
 | CVPR 2020            | [Adversarial Robustness: From Self-Supervised Pre-Training to Fine-Tuning](https://arxiv.org/pdf/2003.12862.pdf) | Adversarial Training |
 | ICLR 2020            | [Self-Labeling via Simultaneous Clustering and Representation Learning](https://arxiv.org/pdf/1911.05371.pdf) | Information          |
+| arXiv:1912.11370     | [Big Transfer (BiT): General Visual Representation Learning](https://arxiv.org/pdf/1912.11370.pdf) | pre-training         |
 
 
 
@@ -112,25 +113,33 @@ Any contributions, comments are welcome.
 | TPAMI                | [A Review on Deep Learning Techniques for Video Prediction](https://arxiv.org/pdf/2004.05214.pdf) | Video prediction review | -          | -              |
 | CVPR 2020            | [Distilled Semantics for Comprehensive Scene Understanding from Videos](https://arxiv.org/pdf/2003.14030.pdf) | Scene Understanding     | KITTI 2015 | Sq Rel : 0.748 |
 | CVPR 2020            | [Self-Supervised Learning of Video-Induced Visual Invariances](https://arxiv.org/pdf/1912.02783.pdf) | Representation Learning | -          | -              |
+| ECCV 2020            | [Video Representation Learning by Recognizing Temporal Transformations](https://arxiv.org/pdf/2007.10730.pdf) | Representation Learning | UCF101     | 81.6%          |
 
 
 
 ## Others
 
-| Conference / Journal | Paper                                                        | Task                            | Performance                |
-| -------------------- | ------------------------------------------------------------ | ------------------------------- | -------------------------- |
-| CVPR 2020            | [Flow2Stereo: Effective Self-Supervised Learning of Optical Flow and Stereo Matching](https://arxiv.org/pdf/2004.02138.pdf) | Optical Flow                    | F1 : 7.63% (KITTI 2012)    |
-| CVPR 2020            | [Self-Supervised Viewpoint Learning From Image Collections](https://arxiv.org/pdf/2004.01793.pdf) | Viewpoint learning              | MAE : 4.0 (BIWI)           |
-| CVPR 2020            | [Self-Supervised Scene De-occlusion](https://arxiv.org/pdf/2004.02788.pdf) | Remove occlusion                | mAP : 29.3 % (KINS)        |
-| CVPR 2020            | [Distilled Semantics for Comprehensive Scene Understanding from Videos](https://arxiv.org/pdf/2003.14030.pdf) | Scene Understanding             | -                          |
-| CVPR 2020            | [Learning by Analogy : Reliable Supervision from Transformations for Unsupervised Optical Flow Estimation](https://arxiv.org/pdf/2003.13045.pdf) | Optical Flow                    | F1 : 11.79% (KITTI 2015)   |
-| CVPR 2020            | [D3Feat: Joint Learning of Dense Detection and Description of 3D Local Features](https://arxiv.org/pdf/2003.03164.pdf) | 3D Local Features               | -                          |
-| CVPR 2020            | [SpeedNet: Learning the Speediness in Videos](https://arxiv.org/pdf/2004.06130.pdf) | predict the "speediness"        | -                          |
-| CVPR 2020            | [Action Segmentation with Joint Self-Supervised Temporal Domain Adaptation](https://arxiv.org/pdf/2003.02824.pdf) | Action Segmentation             | F1@10 : 83.0 (GTEA)        |
-| CVPR 2020            | [MVP: Unified Motion and Visual Self-Supervised Learning for Large-Scale Robotic Navigation](https://arxiv.org/pdf/2003.00667.pdf) | Robotic Navigation              | -                          |
-| arXiv:2003.06734     | [Active Perception and Representation for Robotic Manipulation](https://arxiv.org/pdf/2003.06734.pdf) | Robot manipulation              | -                          |
-| arXiv:2005.01655     | [Words aren’t enough, their order matters: On the Robustness of Grounding Visual Referring Expressions](https://arxiv.org/pdf/2005.01655.pdf) | Visual Referring Expressions    | -                          |
-| arXiv:2004.11362     | [Supervised Contrastive Learning](https://arxiv.org/pdf/2004.11362.pdf) | Supervised Contrastive Learning | ImageNet Acc: 80.8 (Top-1) |
+| Conference / Journal | Paper                                                        | Task                                             | Performance                              |
+| -------------------- | ------------------------------------------------------------ | ------------------------------------------------ | ---------------------------------------- |
+| CVPR 2020            | [Flow2Stereo: Effective Self-Supervised Learning of Optical Flow and Stereo Matching](https://arxiv.org/pdf/2004.02138.pdf) | Optical Flow                                     | F1 : 7.63% (KITTI 2012)                  |
+| CVPR 2020            | [Self-Supervised Viewpoint Learning From Image Collections](https://arxiv.org/pdf/2004.01793.pdf) | Viewpoint learning                               | MAE : 4.0 (BIWI)                         |
+| CVPR 2020            | [Self-Supervised Scene De-occlusion](https://arxiv.org/pdf/2004.02788.pdf) | Remove occlusion                                 | mAP : 29.3 % (KINS)                      |
+| CVPR 2020            | [Distilled Semantics for Comprehensive Scene Understanding from Videos](https://arxiv.org/pdf/2003.14030.pdf) | Scene Understanding                              | -                                        |
+| CVPR 2020            | [Learning by Analogy : Reliable Supervision from Transformations for Unsupervised Optical Flow Estimation](https://arxiv.org/pdf/2003.13045.pdf) | Optical Flow                                     | F1 : 11.79% (KITTI 2015)                 |
+| CVPR 2020            | [D3Feat: Joint Learning of Dense Detection and Description of 3D Local Features](https://arxiv.org/pdf/2003.03164.pdf) | 3D Local Features                                | -                                        |
+| CVPR 2020            | [SpeedNet: Learning the Speediness in Videos](https://arxiv.org/pdf/2004.06130.pdf) | predict the "speediness"                         | -                                        |
+| CVPR 2020            | [Action Segmentation with Joint Self-Supervised Temporal Domain Adaptation](https://arxiv.org/pdf/2003.02824.pdf) | Action Segmentation                              | F1@10 : 83.0 (GTEA)                      |
+| CVPR 2020            | [MVP: Unified Motion and Visual Self-Supervised Learning for Large-Scale Robotic Navigation](https://arxiv.org/pdf/2003.00667.pdf) | Robotic Navigation                               | -                                        |
+| arXiv:2003.06734     | [Active Perception and Representation for Robotic Manipulation](https://arxiv.org/pdf/2003.06734.pdf) | Robot manipulation                               | -                                        |
+| arXiv:2005.01655     | [Words aren’t enough, their order matters: On the Robustness of Grounding Visual Referring Expressions](https://arxiv.org/pdf/2005.01655.pdf) | Visual Referring Expressions                     | -                                        |
+| arXiv:2004.11362     | [Supervised Contrastive Learning](https://arxiv.org/pdf/2004.11362.pdf) | Supervised Contrastive Learning                  | ImageNet Acc: 80.8 (Top-1)               |
+| arXiv:2007.14449     | [Learning from Scale-Invariant Examples for Domain Adaptation in Semantic Segmentation](https://arxiv.org/pdf/2007.14449.pdf) | Domain Adaptation                                | GTA5 to Cityscape : 47.5 (mIoU)          |
+| arXiv:2007.12360     | [On the Effectiveness of Image Rotation for Open Set Domain Adaptation](https://arxiv.org/pdf/2007.12360.pdf) | Domain Adaptation                                | -                                        |
+| arXiv:2003.12283     | [LIMP: Learning Latent Shape Representations with Metric Preservation Priors](https://arxiv.org/pdf/2003.12283.pdf) | Geneartive models                                | -                                        |
+| arXiv:2004.04312     | [Learning to Scale Multilingual Representations for Vision-Language Tasks](https://arxiv.org/pdf/2004.04312.pdf) | Vision-Language                                  | MSCOCO: 81.5                             |
+| arXiv:2003.08934     | [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://arxiv.org/pdf/2003.08934.pdf) | View Synthesis                                   | -                                        |
+| arXiv:2001.01536     | [Learning From Multiple Experts: Self-paced Knowledge Distillation for Long-tailed Classification](https://arxiv.org/pdf/2001.01536.pdf) | Knowledge Distillation, Long-tail classification |                                          |
+| arXiv:2006.07114     | [Knowledge Distillation Meets Self-Supervision](https://arxiv.org/pdf/2006.07114.pdf) | Knowledge Distillation                           | Res50 --> MobileNetv2 Acc: 72.57 (Top-1) |
 
 
 
