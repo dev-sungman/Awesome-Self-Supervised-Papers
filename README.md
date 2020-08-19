@@ -2,9 +2,9 @@
 
 Collecting papers about Self-Supervised Learning.
 
-**Last Update : 2020. 08. 03.**
+**Last Update : 2020. 08. 19.**
 
-* Update ECCV 2020
+* Update ACMMM, AAAI 2020 papers
 
 
 
@@ -24,13 +24,15 @@ Any contributions, comments are welcome.
 | arXiv:1807.03748     | [Representation learning with contrastive predictive coding (CPC)](https://arxiv.org/pdf/1807.03748.pdf) | -                              |
 | arXiv:1911.05722     | [Momentum Contrast for Unsupervised Visual Representation Learning (MoCo)](https://arxiv.org/pdf/1911.05722.pdf) | 60.6 %                         |
 | arXiv:1905.09272     | [Data-Efficient Image Recognition contrastive predictive coding (CPC v2)](https://arxiv.org/pdf/1905.09272.pdf) | 63.8 %                         |
-| arXiv:1906.05849     | [Contrastive Multiview Coding](https://arxiv.org/pdf/1906.05849.pdf) | 66.2 %                         |
+| arXiv:1906.05849     | [Contrastive Multiview Coding (CMC)](https://arxiv.org/pdf/1906.05849.pdf) | 66.2 %                         |
 | arXiv:2002.05709     | [A Simple Framework for Contrastive Learning of Visual Representations (SimCLR)](https://arxiv.org/pdf/2002.05709.pdf) | 69.3 %                         |
 | arXiv:2003.12338     | [Improved Baselines with Momentum Contrastive Learning(MoCo v2)](https://arxiv.org/pdf/2003.04297.pdf) | 71.1 %                         |
 | arXiv:2003.05438     | [Rethinking Image Mixture for Unsupervised Visual Representation Learning](https://arxiv.org/pdf/2003.05438.pdf) | 65.9 %                         |
 | arXiv:2004.05554     | [Feature Lenses: Plug-and-play Neural Modules for Transformation-Invariant Visual Representations](https://arxiv.org/pdf/2004.05554.pdf) |                                |
 | arXiv:2006.10029     | [Big Self-Supervised Models are Strong Semi-Supervised Learners](https://arxiv.org/pdf/2006.10029.pdf) | 74.3 % (10% label)             |
 | arXiv:2006.07733     | [Bootstrap Your Own Latent A New Approach to Self-Supervised Learning](https://arxiv.org/pdf/2006.07733.pdf) | 74.3 % (linear classification) |
+| arXiv:2008.05659     | [What Should Not Be Contrastive in Contrastive Learning](https://arxiv.org/pdf/2008.05659.pdf) | 80.2 % (ImageNet-100)          |
+| arXiv:2007.00224     | [Debiased Contrastive Learning](https://arxiv.org/pdf/2007.00224.pdf) | 74.6 % (ImageNet-100)          |
 
 
 
@@ -103,17 +105,20 @@ Any contributions, comments are welcome.
 | -------------------- | ------------------------------------------------------------ | ------------------------------- |
 | CVPR 2020            | [StyleRig: Rigging StyleGAN for 3D Control over Portrait Images](https://arxiv.org/pdf/2004.00121.pdf) | Portrait Images                 |
 | ICLR 2020            | [From Inference to Generation: End-to-End Fully Self-Supervised Generation of Human Face from Speech](https://arxiv.org/pdf/2004.05830.pdf) | Generate human face from speech |
+| ACMMM2020            | [Neutral Face Game Character Auto-Creation via PokerFace-GAN](https://arxiv.org/pdf/2008.07154.pdf) |                                 |
+| ICPR 2020            | A Self-supervised GAN for Unsupervised Few-shot Object Recognition |                                 |
 
 
 
 ## Video
 
-| Conference / Journal | Paper                                                        | Task                    | Datasets   | Performance    |
-| -------------------- | ------------------------------------------------------------ | ----------------------- | ---------- | -------------- |
-| TPAMI                | [A Review on Deep Learning Techniques for Video Prediction](https://arxiv.org/pdf/2004.05214.pdf) | Video prediction review | -          | -              |
-| CVPR 2020            | [Distilled Semantics for Comprehensive Scene Understanding from Videos](https://arxiv.org/pdf/2003.14030.pdf) | Scene Understanding     | KITTI 2015 | Sq Rel : 0.748 |
-| CVPR 2020            | [Self-Supervised Learning of Video-Induced Visual Invariances](https://arxiv.org/pdf/1912.02783.pdf) | Representation Learning | -          | -              |
-| ECCV 2020            | [Video Representation Learning by Recognizing Temporal Transformations](https://arxiv.org/pdf/2007.10730.pdf) | Representation Learning | UCF101     | 81.6%          |
+| Conference / Journal | Paper                                                        | Task                    | Datasets   | Performance                    |
+| -------------------- | ------------------------------------------------------------ | ----------------------- | ---------- | ------------------------------ |
+| TPAMI                | [A Review on Deep Learning Techniques for Video Prediction](https://arxiv.org/pdf/2004.05214.pdf) | Video prediction review | -          | -                              |
+| CVPR 2020            | [Distilled Semantics for Comprehensive Scene Understanding from Videos](https://arxiv.org/pdf/2003.14030.pdf) | Scene Understanding     | KITTI 2015 | Sq Rel : 0.748                 |
+| CVPR 2020            | [Self-Supervised Learning of Video-Induced Visual Invariances](https://arxiv.org/pdf/1912.02783.pdf) | Representation Learning | -          | -                              |
+| ECCV 2020            | [Video Representation Learning by Recognizing Temporal Transformations](https://arxiv.org/pdf/2007.10730.pdf) | Representation Learning | UCF101     | 26.1 % (Video Retrieval Top-1) |
+| arXiv:2008.02531     | [Self-supervised Video Representation Learning Using Inter-intra Contrastive Framework](https://arxiv.org/pdf/2008.02531.pdf) | Representation Learning | UCF101     | 42.4 % (Video Retrieval Top-1) |
 
 
 
@@ -140,6 +145,7 @@ Any contributions, comments are welcome.
 | arXiv:2003.08934     | [NeRF: Representing Scenes as Neural Radiance Fields for View Synthesis](https://arxiv.org/pdf/2003.08934.pdf) | View Synthesis                                   | -                                        |
 | arXiv:2001.01536     | [Learning From Multiple Experts: Self-paced Knowledge Distillation for Long-tailed Classification](https://arxiv.org/pdf/2001.01536.pdf) | Knowledge Distillation, Long-tail classification |                                          |
 | arXiv:2006.07114     | [Knowledge Distillation Meets Self-Supervision](https://arxiv.org/pdf/2006.07114.pdf) | Knowledge Distillation                           | Res50 --> MobileNetv2 Acc: 72.57 (Top-1) |
+| AAAI2020             | [Fast and Robust Face-to-Parameter Translation for Game Character Auto-Creation](https://arxiv.org/pdf/2008.07132.pdf) | Game Character Auto-Creation                     |                                          |
 
 
 
@@ -158,9 +164,10 @@ Any contributions, comments are welcome.
 
 # Speech 
 
-| Conference / Journal | Paper                                                        | Datasets    | Performance |
-| -------------------- | ------------------------------------------------------------ | ----------- | ----------- |
-| arXiv:1910.05453v3   | [VQ-WAV2VEC: SELF-SUPERVISED LEARNING OF DISCRETE SPEECH REPRESENTATIONS](https://arxiv.org/pdf/1910.05453.pdf) | nov92       | WER : 2.34  |
-| arXiv:1911.03912v2   | [EFFECTIVENESS OF SELF-SUPERVISED PRE-TRAINING FOR SPEECH RECOGNITION](https://arxiv.org/pdf/1911.03912.pdf) | Librispeech | WER : 4.0   |
-| ICASSP 2020          | [Generative Pre-Training for Speech with Augoregressive Predictive Coding](https://arxiv.org/pdf/1910.12607.pdf) | -           | -           |
+| Conference / Journal | Paper                                                        | Datasets    | Performance            |
+| -------------------- | ------------------------------------------------------------ | ----------- | ---------------------- |
+| arXiv:1910.05453v3   | [VQ-WAV2VEC: SELF-SUPERVISED LEARNING OF DISCRETE SPEECH REPRESENTATIONS](https://arxiv.org/pdf/1910.05453.pdf) | nov92       | WER : 2.34             |
+| arXiv:1911.03912v2   | [EFFECTIVENESS OF SELF-SUPERVISED PRE-TRAINING FOR SPEECH RECOGNITION](https://arxiv.org/pdf/1911.03912.pdf) | Librispeech | WER : 4.0              |
+| ICASSP 2020          | [Generative Pre-Training for Speech with Augoregressive Predictive Coding](https://arxiv.org/pdf/1910.12607.pdf) | -           | -                      |
+| Interspeech 2020     | [Jointly Fine-Tuning “BERT-like” Self Supervised Models to Improve Multimodal Speech Emotion Recognition](https://arxiv.org/pdf/2008.06682.pdf) | IEMOCAP     | Emotion Acc: 75.458(%) |
 
