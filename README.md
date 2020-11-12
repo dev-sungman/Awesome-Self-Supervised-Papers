@@ -1,14 +1,25 @@
 # Awesome-Self-Supervised-Papers
 
-Collecting papers about Self-Supervised Learning.
+Collecting papers about Self-Supervised Learning, Representation Learning.
 
-**Last Update : 2020. 11. 4.**
 
-* Update arXiv papers
+
+**Last Update : 2020. 11. 12.**
+
+* From now on, I will organize a little more neatly through Notion.
+* Update ICLR 2021 papers (average ratings >= 6.5)
 
 
 
 Any contributions, comments are welcome.
+
+
+
+## Papers about Self-Supervised, Representation Learning
+
+[[ICLR 2021]](https://www.notion.so/ICLR-2021-9424b4291cf94c35a9447cd1dedf9352)
+
+
 
 
 
@@ -35,7 +46,6 @@ Any contributions, comments are welcome.
 | arXiv:2007.00224      | [Debiased Contrastive Learning](https://arxiv.org/pdf/2007.00224.pdf) | 74.6 % (ImageNet-100)                           |
 | arXiv:2009.00104      | [A Framework For Contrastive Self-Supervised Learning And Designing A New Approach](https://arxiv.org/pdf/2009.00104.pdf) | -                                               |
 | ICLR2021 under review | [SELF-SUPERVISED REPRESENTATION LEARNING VIA ADAPTIVE HARD-POSITIVE MINING](https://openreview.net/pdf?id=aLIbnLY9NtH) | 72.3% (ResNet-50(4x): 77.3%)                    |
-| ICLR2021 under review | [TOWARDS GOOD PRACTICES IN SELF-SUPERVISED REPRESENTATION LEARNING](https://openreview.net/pdf?id=YYvtmM9TPw) | review paper                                    |
 | IEEE Access           | [Contrastive Representation Learning: A Framework and Review](https://arxiv.org/pdf/2010.05113.pdf) | review paper                                    |
 | arXiv:2010.01929      | [EQCO: EQUIVALENT RULES FOR SELF-SUPERVISED CONTRASTIVE LEARNING](https://arxiv.org/pdf/2010.01929.pdf) | 68.5 % (Proposed) / 66.6 % (SimCLR) / 200epochs |
 | arXiv:2010.01028      | [Hard Negative Mixing for Contrastive Learning](https://arxiv.org/pdf/2010.01028.pdf) | 68.0% / 200epochs                               |
