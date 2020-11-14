@@ -7,7 +7,7 @@ Collecting papers about Self-Supervised Learning, Representation Learning.
 **Last Update : 2020. 11. 12.**
 
 * From now on, I will organize a little more neatly through Notion.
-* Update ICLR 2021 papers (average ratings >= 6.5)
+* Update ICLR 2021 papers (average ratings >= 5.5)
 
 
 
