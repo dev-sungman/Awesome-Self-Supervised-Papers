@@ -4,22 +4,9 @@ Collecting papers about Self-Supervised Learning, Representation Learning.
 
 
 
-**Last Update : 2020. 11. 12.**
+**Last Update : 2021. 01. 10.**
 
-* From now on, I will organize a little more neatly through Notion.
-* Update ICLR 2021 papers (average ratings >= 5.5)
-
-
-
-Any contributions, comments are welcome.
-
-
-
-## Papers about Self-Supervised, Representation Learning
-
-[[ICLR 2021]](https://www.notion.so/ICLR-2021-9424b4291cf94c35a9447cd1dedf9352)
-
-
+* Any contributions, comments are welcome.
 
 
 
@@ -52,6 +39,13 @@ Any contributions, comments are welcome.
 | arXiv:2010.06682      | [Are all negatives created equal in contrastive instance discrimination?](https://arxiv.org/pdf/2010.06682.pdf) | -                                               |
 
 
+
+**Dense Contrastive Learning**
+
+| rnal             | Paper                                                        | Downstream            |
+| ---------------- | ------------------------------------------------------------ | --------------------- |
+| NeurIPS 2020     | [Unsupervised Learning of Dense Visual Representations](https://arxiv.org/pdf/2011.05499.pdf) | AP: 39.2 (COCO, BBOX) |
+| arXiv:2011.10043 | [Propagate Yourself: Exploring Pixel-Level Consistency for Unsupervised Visual Representation Learning](https://arxiv.org/pdf/2011.10043.pdf) | AP: 60.2 (VOC, BBOX)  |
 
 
 
