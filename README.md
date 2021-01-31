@@ -4,8 +4,9 @@ Collecting papers about Self-Supervised Learning, Representation Learning.
 
 
 
-**Last Update : 2021. 01. 10.**
+**Last Update : 2021. 01. 31.**
 
+* Update import papers (SwAV, Colorization, JigSaw, ...) 
 * Any contributions, comments are welcome.
 
 
@@ -29,6 +30,7 @@ Collecting papers about Self-Supervised Learning, Representation Learning.
 | arXiv:2004.05554      | [Feature Lenses: Plug-and-play Neural Modules for Transformation-Invariant Visual Representations](https://arxiv.org/pdf/2004.05554.pdf) |                                                             |
 | arXiv:2006.10029      | [Big Self-Supervised Models are Strong Semi-Supervised Learners(SimCLRv2)](https://arxiv.org/pdf/2006.10029.pdf) | 77.5 % (10% label)                                          |
 | arXiv:2006.07733      | [Bootstrap Your Own Latent A New Approach to Self-Supervised Learning](https://arxiv.org/pdf/2006.07733.pdf) | 74.3 %                                                      |
+| arXiv:2006.09882      | [Unsupervised Learning of Visual Features by Contrasting Cluster Assignments(SwAV)](https://arxiv.org/pdf/2006.09882.pdf) | 75.3%                                                       |
 | arXiv:2008.05659      | [What Should Not Be Contrastive in Contrastive Learning](https://arxiv.org/pdf/2008.05659.pdf) | 80.2 % (ImageNet-100)                                       |
 | arXiv:2007.00224      | [Debiased Contrastive Learning](https://arxiv.org/pdf/2007.00224.pdf) | 74.6 % (ImageNet-100)                                       |
 | arXiv:2009.00104      | [A Framework For Contrastive Self-Supervised Learning And Designing A New Approach](https://arxiv.org/pdf/2009.00104.pdf) | -                                                           |
@@ -36,6 +38,7 @@ Collecting papers about Self-Supervised Learning, Representation Learning.
 | IEEE Access           | [Contrastive Representation Learning: A Framework and Review](https://arxiv.org/pdf/2010.05113.pdf) | review paper                                                |
 | arXiv:2010.01929      | [EQCO: EQUIVALENT RULES FOR SELF-SUPERVISED CONTRASTIVE LEARNING](https://arxiv.org/pdf/2010.01929.pdf) | 68.5 % (Proposed) / 66.6 % (SimCLR) / 200epochs             |
 | arXiv:2010.01028      | [Hard Negative Mixing for Contrastive Learning](https://arxiv.org/pdf/2010.01028.pdf) | 68.0% / 200epochs                                           |
+| arXiv:2011.10566      | [Exploring Simple Siamese Representation Learning(SimSiam)](https://arxiv.org/pdf/2011.10566.pdf) | 68.1% / 100 epochs / 256 batch                              |
 | arXiv:2010.06682      | [Are all negatives created equal in contrastive instance discrimination?](https://arxiv.org/pdf/2010.06682.pdf) | -                                                           |
 | arXiv:2101.05224      | [Big Self-Supervised Models Advance Medical Image Classification](https://arxiv.org/pdf/2101.05224.pdf) | AUC: 0.7729 (SimCLR / ImagNet--> Chexpert / ResNet-152(2x)) |
 
@@ -52,13 +55,15 @@ Collecting papers about Self-Supervised Learning, Representation Learning.
 
 ### Image Transformation
 
-| Conference / Journal | Paper                                                        | ImageNet Acc (Top 1). |
-| -------------------- | ------------------------------------------------------------ | --------------------- |
-| CVPR 2018            | [Unsupervised feature learning via non-parametric instance discrimination (NPID++)](https://arxiv.org/pdf/1805.01978.pdf) | 59.0 %                |
-| ICCV 2019            | [Scaling and Benchmarking Self-Supervised Visual Representation Learning (Jigsaw)](https://arxiv.org/pdf/1905.01235.pdf) | 45.7 %                |
-| arXiv:1912.01991     | [Self-Supervised Learning of Pretext-Invariant Representations (PIRL)](https://arxiv.org/pdf/1912.01991.pdf) | 63.6 %                |
-| CVPR 2020            | [Steering Self-Supervised Feature Learning Beyond Local Pixel Statistics](https://arxiv.org/pdf/2004.02331.pdf) | -                     |
-| arXiv:2003.04298     | [Multi-modal Self-Supervision from Generalized Data Transformations](https://arxiv.org/pdf/2003.04298.pdf) | -                     |
+| Conference / Journal | Paper                                                        | ImageNet Acc (Top 1).      |
+| -------------------- | ------------------------------------------------------------ | -------------------------- |
+| ECCV 2016            | [Colorful image colorization(Colorization)](https://arxiv.org/pdf/1603.08511.pdf) | 39.6%                      |
+| ECCV 2016            | [Unsupervised learning of visual representations by solving jigsaw puzzles](https://arxiv.org/pdf/1603.09246.pdf) | 45.7%                      |
+| CVPR 2018            | [Unsupervised Feature Learning via Non-Parametric Instance Discrimination (NPID, NPID++)](https://openaccess.thecvf.com/content_cvpr_2018/CameraReady/0801.pdf) | NPID: 54.0%, NPID++: 59.0% |
+| CVPR 2018            | [Boosting Self-Supervised Learning via Knowledge Transfer (Jigsaw++)](https://openaccess.thecvf.com/content_cvpr_2018/papers/Noroozi_Boosting_Self-Supervised_Learning_CVPR_2018_paper.pdf) | -                          |
+| CVPR 2020            | [Self-Supervised Learning of Pretext-Invariant Representations (PIRL)](https://arxiv.org/pdf/1912.01991.pdf) | 63.6 %                     |
+| CVPR 2020            | [Steering Self-Supervised Feature Learning Beyond Local Pixel Statistics](https://arxiv.org/pdf/2004.02331.pdf) | -                          |
+| arXiv:2003.04298     | [Multi-modal Self-Supervision from Generalized Data Transformations](https://arxiv.org/pdf/2003.04298.pdf) | -                          |
 
 
 
@@ -71,6 +76,7 @@ Collecting papers about Self-Supervised Learning, Representation Learning.
 | ICLR 2019              | [Learning Deep Representations by Mutual Information Estimation and Maximization](https://arxiv.org/pdf/1808.06670.pdf) | Mutual Information   |
 | arXiv:1903.12355       | [Local Aggregation for Unsupervised Learning of Visual Embeddings](https://arxiv.org/pdf/1903.12355.pdf) | Local Aggregation    |
 | arXiv:1906.00910       | [Learning Representations by Maximizing Mutual Information Across Views](https://arxiv.org/pdf/1906.00910.pdf) | Mutual Information   |
+| arXiv:1907.02544       | [Large Scale Adversarial Representation Learning(BigBiGAN)](https://arxiv.org/pdf/1907.02544.pdf) | Adversarial Training |
 | ICLR 2020              | [On Mutual Information Maximization for Representation Learning](https://arxiv.org/pdf/1907.13625.pdf) | Mutual Information   |
 | CVPR 2020              | [How Useful is Self-Supervised Pretraining for Visual Tasks?](https://arxiv.org/pdf/2003.14323.pdf) | -                    |
 | CVPR 2020              | [Adversarial Robustness: From Self-Supervised Pre-Training to Fine-Tuning](https://arxiv.org/pdf/2003.12862.pdf) | Adversarial Training |
