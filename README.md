@@ -7,7 +7,12 @@ Collecting papers about Self-Supervised Learning, Representation Learning.
 **Last Update : 2021. 01. 31.**
 
 * Update import papers (SwAV, Colorization, JigSaw, ...) 
+* Update timetable
 * Any contributions, comments are welcome.
+
+
+
+<img src="imgs/overall.png" width="100%" height="50%">
 
 
 
