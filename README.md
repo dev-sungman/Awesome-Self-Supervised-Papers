@@ -51,7 +51,7 @@ Collecting papers about Self-Supervised Learning, Representation Learning.
 
 **Dense Contrastive Learning**
 
-| rnal             | Paper                                                        | Downstream            |
+| Conference / Journal             | Paper                                                        | Downstream            |
 | ---------------- | ------------------------------------------------------------ | --------------------- |
 | NeurIPS 2020     | [Unsupervised Learning of Dense Visual Representations](https://arxiv.org/pdf/2011.05499.pdf) | AP: 39.2 (COCO, BBOX) |
 | arXiv:2011.10043 | [Propagate Yourself: Exploring Pixel-Level Consistency for Unsupervised Visual Representation Learning](https://arxiv.org/pdf/2011.10043.pdf) | AP: 60.2 (VOC, BBOX)  |
