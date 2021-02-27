@@ -4,7 +4,7 @@ Collecting papers about Self-Supervised Learning, Representation Learning.
 
 
 
-**Last Update : 2021. 01. 31.**
+**Last Update : 2021. 02. 27.**
 
 * Update import papers (SwAV, Colorization, JigSaw, ...) 
 * Update timetable
@@ -74,23 +74,25 @@ Collecting papers about Self-Supervised Learning, Representation Learning.
 
 ### Others (in Pretraining / Feature / Representation)
 
-| Conference / Journal   | Paper                                                        | Method               |
-| ---------------------- | ------------------------------------------------------------ | -------------------- |
-| ICML 2018              | [Mutual Information Neural Estimation](https://arxiv.org/pdf/1801.04062.pdf) | Mutual Information   |
-| NeurIPS 2019           | [Wasserstein Dependency Measure for Representation Learning](http://papers.nips.cc/paper/9692-wasserstein-dependency-measure-for-representation-learning.pdf) | Mutual Information   |
-| ICLR 2019              | [Learning Deep Representations by Mutual Information Estimation and Maximization](https://arxiv.org/pdf/1808.06670.pdf) | Mutual Information   |
-| arXiv:1903.12355       | [Local Aggregation for Unsupervised Learning of Visual Embeddings](https://arxiv.org/pdf/1903.12355.pdf) | Local Aggregation    |
-| arXiv:1906.00910       | [Learning Representations by Maximizing Mutual Information Across Views](https://arxiv.org/pdf/1906.00910.pdf) | Mutual Information   |
-| arXiv:1907.02544       | [Large Scale Adversarial Representation Learning(BigBiGAN)](https://arxiv.org/pdf/1907.02544.pdf) | Adversarial Training |
-| ICLR 2020              | [On Mutual Information Maximization for Representation Learning](https://arxiv.org/pdf/1907.13625.pdf) | Mutual Information   |
-| CVPR 2020              | [How Useful is Self-Supervised Pretraining for Visual Tasks?](https://arxiv.org/pdf/2003.14323.pdf) | -                    |
-| CVPR 2020              | [Adversarial Robustness: From Self-Supervised Pre-Training to Fine-Tuning](https://arxiv.org/pdf/2003.12862.pdf) | Adversarial Training |
-| ICLR 2020              | [Self-Labeling via Simultaneous Clustering and Representation Learning](https://arxiv.org/pdf/1911.05371.pdf) | Information          |
-| arXiv:1912.11370       | [Big Transfer (BiT): General Visual Representation Learning](https://arxiv.org/pdf/1912.11370.pdf) | pre-training         |
-| arXiv:2009.07724       | [Evaluating Self-Supervised Pretraining Without Using Labels](https://arxiv.org/pdf/2009.07724.pdf) | pre-training         |
-| arXiv:2010.00578       | [UNDERSTANDING SELF-SUPERVISED LEARNING WITH DUAL DEEP NETWORKS](https://arxiv.org/pdf/2010.00578.pdf) | Dual Deep Network    |
-| ICLR 2021 under review | [REPRESENTATION LEARNING VIA INVARIANT CAUSAL MECHANISMS](https://arxiv.org/pdf/2010.07922.pdf) | Casual mechanism     |
-| arXiv:2006.06882       | [Rethinking Pre-training and Self-training](https://arxiv.org/pdf/2006.06882.pdf) | Rethinking           |
+| Conference / Journal   | Paper                                                        | Method                       |
+| ---------------------- | ------------------------------------------------------------ | ---------------------------- |
+| ICML 2018              | [Mutual Information Neural Estimation](https://arxiv.org/pdf/1801.04062.pdf) | Mutual Information           |
+| NeurIPS 2019           | [Wasserstein Dependency Measure for Representation Learning](http://papers.nips.cc/paper/9692-wasserstein-dependency-measure-for-representation-learning.pdf) | Mutual Information           |
+| ICLR 2019              | [Learning Deep Representations by Mutual Information Estimation and Maximization](https://arxiv.org/pdf/1808.06670.pdf) | Mutual Information           |
+| arXiv:1903.12355       | [Local Aggregation for Unsupervised Learning of Visual Embeddings](https://arxiv.org/pdf/1903.12355.pdf) | Local Aggregation            |
+| arXiv:1906.00910       | [Learning Representations by Maximizing Mutual Information Across Views](https://arxiv.org/pdf/1906.00910.pdf) | Mutual Information           |
+| arXiv:1907.02544       | [Large Scale Adversarial Representation Learning(BigBiGAN)](https://arxiv.org/pdf/1907.02544.pdf) | Adversarial Training         |
+| ICLR 2020              | [On Mutual Information Maximization for Representation Learning](https://arxiv.org/pdf/1907.13625.pdf) | Mutual Information           |
+| CVPR 2020              | [How Useful is Self-Supervised Pretraining for Visual Tasks?](https://arxiv.org/pdf/2003.14323.pdf) | -                            |
+| CVPR 2020              | [Adversarial Robustness: From Self-Supervised Pre-Training to Fine-Tuning](https://arxiv.org/pdf/2003.12862.pdf) | Adversarial Training         |
+| ICLR 2020              | [Self-Labeling via Simultaneous Clustering and Representation Learning](https://arxiv.org/pdf/1911.05371.pdf) | Information                  |
+| arXiv:1912.11370       | [Big Transfer (BiT): General Visual Representation Learning](https://arxiv.org/pdf/1912.11370.pdf) | pre-training                 |
+| arXiv:2009.07724       | [Evaluating Self-Supervised Pretraining Without Using Labels](https://arxiv.org/pdf/2009.07724.pdf) | pre-training                 |
+| arXiv:2010.00578       | [UNDERSTANDING SELF-SUPERVISED LEARNING WITH DUAL DEEP NETWORKS](https://arxiv.org/pdf/2010.00578.pdf) | Dual Deep Network            |
+| ICLR 2021 under review | [REPRESENTATION LEARNING VIA INVARIANT CAUSAL MECHANISMS](https://arxiv.org/pdf/2010.07922.pdf) | Casual mechanism             |
+| arXiv:2006.06882       | [Rethinking Pre-training and Self-training](https://arxiv.org/pdf/2006.06882.pdf) | Rethinking                   |
+| arXiv:2102.12903       | [Self-Tuning for Data-Efficient Deep Learning](https://arxiv.org/pdf/2102.12903.pdf) | data-efficient deep learning |
+| arXiv:2102.10106       | [Mine Your Own vieW: Self-Supervised Learning Through Across-Sample Prediction](https://arxiv.org/pdf/2102.10106.pdf) | find similar samples         |
 
 
 
@@ -119,8 +121,6 @@ Collecting papers about Self-Supervised Learning, Representation Learning.
 
 
 
-
-
 ## Detection / Localization
 
 | Conference / Journal | Paper                                                        | Datsets  | Performance   |
@@ -137,19 +137,19 @@ Collecting papers about Self-Supervised Learning, Representation Learning.
 | ICLR 2020                    | [From Inference to Generation: End-to-End Fully Self-Supervised Generation of Human Face from Speech](https://arxiv.org/pdf/2004.05830.pdf) | Generate human face from speech |
 | ACMMM2020                    | [Neutral Face Game Character Auto-Creation via PokerFace-GAN](https://arxiv.org/pdf/2008.07154.pdf) |                                 |
 | ICLR 2021 <br />under review | [Self-Supervised Variational Auto-Encoders](https://arxiv.org/pdf/2010.02014.pdf) | FID: 34.71 (CIFAR-10)           |
-|                              |                                                              |                                 |
 
 
 
 ## Video
 
-| Conference / Journal | Paper                                                        | Task                    | Datasets   | Performance                    |
-| -------------------- | ------------------------------------------------------------ | ----------------------- | ---------- | ------------------------------ |
-| TPAMI                | [A Review on Deep Learning Techniques for Video Prediction](https://arxiv.org/pdf/2004.05214.pdf) | Video prediction review | -          | -                              |
-| CVPR 2020            | [Distilled Semantics for Comprehensive Scene Understanding from Videos](https://arxiv.org/pdf/2003.14030.pdf) | Scene Understanding     | KITTI 2015 | Sq Rel : 0.748                 |
-| CVPR 2020            | [Self-Supervised Learning of Video-Induced Visual Invariances](https://arxiv.org/pdf/1912.02783.pdf) | Representation Learning | -          | -                              |
-| ECCV 2020            | [Video Representation Learning by Recognizing Temporal Transformations](https://arxiv.org/pdf/2007.10730.pdf) | Representation Learning | UCF101     | 26.1 % (Video Retrieval Top-1) |
-| arXiv:2008.02531     | [Self-supervised Video Representation Learning Using Inter-intra Contrastive Framework](https://arxiv.org/pdf/2008.02531.pdf) | Representation Learning | UCF101     | 42.4 % (Video Retrieval Top-1) |
+| Conference / Journal | Paper                                                        | Task                    | Performance                    | Datasets   |
+| -------------------- | ------------------------------------------------------------ | ----------------------- | ------------------------------ | ---------- |
+| TPAMI                | [A Review on Deep Learning Techniques for Video Prediction](https://arxiv.org/pdf/2004.05214.pdf) | Video prediction review | -                              | -          |
+| CVPR 2020            | [Distilled Semantics for Comprehensive Scene Understanding from Videos](https://arxiv.org/pdf/2003.14030.pdf) | Scene Understanding     | Sq Rel : 0.748                 | KITTI 2015 |
+| CVPR 2020            | [Self-Supervised Learning of Video-Induced Visual Invariances](https://arxiv.org/pdf/1912.02783.pdf) | Representation Learning | -                              | -          |
+| ECCV 2020            | [Video Representation Learning by Recognizing Temporal Transformations](https://arxiv.org/pdf/2007.10730.pdf) | Representation Learning | 26.1 % (Video Retrieval Top-1) | UCF101     |
+| arXiv:2008.02531     | [Self-supervised Video Representation Learning Using Inter-intra Contrastive Framework](https://arxiv.org/pdf/2008.02531.pdf) | Representation Learning | 42.4 % (Video Retrieval Top-1) | UCF101     |
+| NeurIPS 2020         | [Space-Time Correspondence as a Contrastive Random Walk](https://proceedings.neurips.cc/paper/2020/file/e2ef524fbf3d9fe611d5a8e90fefdc9c-Paper.pdf) | Contrastive Learning    | 64.8 (Region Similarity)       | DAVIS 2017 |
 
 
 
@@ -207,11 +207,11 @@ Collecting papers about Self-Supervised Learning, Representation Learning.
 
 ## Graph
 
-| Conference / Journal | Paper                                                        | Datasets | Performance       |
-| -------------------- | ------------------------------------------------------------ | -------- | ----------------- |
-| arxiv:2009.05923     | [Contrastive Self-supervised Learning for Graph Classification](https://arxiv.org/pdf/2009.05923.pdf) | PROTEINS | A3-specific:85.80 |
-|                      |                                                              |          |                   |
-|                      |                                                              |          |                   |
+| Conference / Journal | Paper                                                        | Datasets               | Performance              |
+| -------------------- | ------------------------------------------------------------ | ---------------------- | ------------------------ |
+| arXiv:2009.05923     | [Contrastive Self-supervised Learning for Graph Classification](https://arxiv.org/pdf/2009.05923.pdf) | PROTEINS               | A3-specific:85.80        |
+| arXiv:2102.13085     | [Towards Robust Graph Contrastive Learning](https://arxiv.org/pdf/2102.13085.pdf) | Cora, Citeseer, Pubmed | Acc: 82.4 (Cora, GCA-DE) |
+|                      |                                                              |                        |                          |
 
 
 
