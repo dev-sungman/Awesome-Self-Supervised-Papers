@@ -4,11 +4,13 @@ Collecting papers about Self-Supervised Learning, Representation Learning.
 
 
 
-**Last Update : 2021. 02. 27.**
+**Last Update : 2021. 03. 12.**
 
-* Update import papers (SwAV, Colorization, JigSaw, ...) 
-* Update timetable
-* Any contributions, comments are welcome.
+* Update papers published in Feb, Mar
+
+
+
+**Any contributions, comments are welcome.**
 
 
 
@@ -46,6 +48,9 @@ Collecting papers about Self-Supervised Learning, Representation Learning.
 | arXiv:2011.10566      | [Exploring Simple Siamese Representation Learning(SimSiam)](https://arxiv.org/pdf/2011.10566.pdf) | 68.1% / 100 epochs / 256 batch                              |
 | arXiv:2010.06682      | [Are all negatives created equal in contrastive instance discrimination?](https://arxiv.org/pdf/2010.06682.pdf) | -                                                           |
 | arXiv:2101.05224      | [Big Self-Supervised Models Advance Medical Image Classification](https://arxiv.org/pdf/2101.05224.pdf) | AUC: 0.7729 (SimCLR / ImagNet--> Chexpert / ResNet-152(2x)) |
+| arXiv:2012.08850      | [Contrastive Learning Inverts the Data Generating Process](https://arxiv.org/pdf/2102.08850.pdf?fbclid=IwAR3sw-7IfgbgiIblQPb4Y1OCXKYn0dkcVtri_n8Ln73fgC2vSnPn9HYvi4E) | Theoretical fondation about contrastive learning            |
+| arXiv:2103.01988      | [Self-supervised Pretraining of Visual Features in the Wild](https://arxiv.org/pdf/2103.01988.pdf?fbclid=IwAR33zJ9CqxAdL3JJzo0eT2AkmdTpA9_zMc-566flGddOc1HMzESQTdu9piE) | (finetune) 83.8%(693M parameters), 84.2%(1.3B parameters)   |
+| arXiv:2103.03230      | [Barlow Twins: Self-Supervised Learning via Redundancy Reduction](https://arxiv.org/pdf/2103.03230.pdf?fbclid=IwAR1p0f_DIdSF1gLFxcdAnBbUX7BO-5AFAqWQea0fNbOCsO5DK3TfQ6xTjo0) | 73.2%                                                       |
 
 
 
@@ -91,8 +96,10 @@ Collecting papers about Self-Supervised Learning, Representation Learning.
 | arXiv:2010.00578       | [UNDERSTANDING SELF-SUPERVISED LEARNING WITH DUAL DEEP NETWORKS](https://arxiv.org/pdf/2010.00578.pdf) | Dual Deep Network            |
 | ICLR 2021 under review | [REPRESENTATION LEARNING VIA INVARIANT CAUSAL MECHANISMS](https://arxiv.org/pdf/2010.07922.pdf) | Casual mechanism             |
 | arXiv:2006.06882       | [Rethinking Pre-training and Self-training](https://arxiv.org/pdf/2006.06882.pdf) | Rethinking                   |
-| arXiv:2102.12903       | [Self-Tuning for Data-Efficient Deep Learning](https://arxiv.org/pdf/2102.12903.pdf) | data-efficient deep learning |
-| arXiv:2102.10106       | [Mine Your Own vieW: Self-Supervised Learning Through Across-Sample Prediction](https://arxiv.org/pdf/2102.10106.pdf) | find similar samples         |
+| arXiv:2102.12903       | [Self-Tuning for Data-Efficient Deep Learning](https://arxiv.org/pdf/2102.12903.pdf) | Data-efficient deep learning |
+| arXiv:2102.10106       | [Mine Your Own vieW: Self-Supervised Learning Through Across-Sample Prediction](https://arxiv.org/pdf/2102.10106.pdf) | Find similar samples         |
+| ECCV 2020              | [Mitigating Embedding and Class Assignment Mismatch in Unsupervised Image Classification](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123690749.pdf) | Feature embedding & refining |
+| arXiv:2102.11150       | [Improving Unsupervised Image Clustering With Robust Learning](https://arxiv.org/pdf/2012.11150.pdf) | Pseudo-label, clustering     |
 
 
 
