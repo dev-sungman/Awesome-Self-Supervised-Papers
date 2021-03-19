@@ -81,6 +81,7 @@ Collecting papers about Self-Supervised Learning, Representation Learning.
 
 | Conference / Journal   | Paper                                                        | Method                       |
 | ---------------------- | ------------------------------------------------------------ | ---------------------------- |
+| ICLR2018               | [Unsupervised Representation Learning by Predicting Image Rotations](https://arxiv.org/abs/1803.07728)  | Surrogate classes, pre-training
 | ICML 2018              | [Mutual Information Neural Estimation](https://arxiv.org/pdf/1801.04062.pdf) | Mutual Information           |
 | NeurIPS 2019           | [Wasserstein Dependency Measure for Representation Learning](http://papers.nips.cc/paper/9692-wasserstein-dependency-measure-for-representation-learning.pdf) | Mutual Information           |
 | ICLR 2019              | [Learning Deep Representations by Mutual Information Estimation and Maximization](https://arxiv.org/pdf/1808.06670.pdf) | Mutual Information           |
