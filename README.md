@@ -137,7 +137,7 @@ Collecting papers about Self-Supervised Learning, Representation Learning.
 
 
 
-## Geneartion
+## Generation
 
 | Conference / Journal         | Paper                                                        | Task                            |
 | ---------------------------- | ------------------------------------------------------------ | ------------------------------- |
