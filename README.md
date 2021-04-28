@@ -4,15 +4,14 @@ Collecting papers about Self-Supervised Learning, Representation Learning.
 
 
 
-**Last Update : 2021. 03. 12.**
+**Last Update : 2021. 04. 28.**
 
-* Update papers published in Feb, Mar
+* Update papers about dense contrastive learning.
+* Update MoCo v3
 
 
 
 **Any contributions, comments are welcome.**
-
-
 
 <img src="imgs/overall.png" width="100%" height="50%">
 
@@ -51,15 +50,20 @@ Collecting papers about Self-Supervised Learning, Representation Learning.
 | arXiv:2012.08850      | [Contrastive Learning Inverts the Data Generating Process](https://arxiv.org/pdf/2102.08850.pdf?fbclid=IwAR3sw-7IfgbgiIblQPb4Y1OCXKYn0dkcVtri_n8Ln73fgC2vSnPn9HYvi4E) | Theoretical fondation about contrastive learning            |
 | arXiv:2103.01988      | [Self-supervised Pretraining of Visual Features in the Wild](https://arxiv.org/pdf/2103.01988.pdf?fbclid=IwAR33zJ9CqxAdL3JJzo0eT2AkmdTpA9_zMc-566flGddOc1HMzESQTdu9piE) | (finetune) 83.8%(693M parameters), 84.2%(1.3B parameters)   |
 | arXiv:2103.03230      | [Barlow Twins: Self-Supervised Learning via Redundancy Reduction](https://arxiv.org/pdf/2103.03230.pdf?fbclid=IwAR1p0f_DIdSF1gLFxcdAnBbUX7BO-5AFAqWQea0fNbOCsO5DK3TfQ6xTjo0) | 73.2%                                                       |
+| arXiv:2104.02057      | [An Empirical Study of Training Self-Supervised Vision Transformers](https://arxiv.org/pdf/2104.02057.pdf) | 81.0%                                                       |
 
 
 
 **Dense Contrastive Learning**
 
-| Conference / Journal             | Paper                                                        | Downstream            |
-| ---------------- | ------------------------------------------------------------ | --------------------- |
-| NeurIPS 2020     | [Unsupervised Learning of Dense Visual Representations](https://arxiv.org/pdf/2011.05499.pdf) | AP: 39.2 (COCO, BBOX) |
-| arXiv:2011.10043 | [Propagate Yourself: Exploring Pixel-Level Consistency for Unsupervised Visual Representation Learning](https://arxiv.org/pdf/2011.10043.pdf) | AP: 60.2 (VOC, BBOX)  |
+| Conference / Journal             | Paper                                                        | AP(bbox) @COCO | AP(mask) @COCO |
+| ---------------- | ------------------------------------------------------------ | --------------------- | ---------------- |
+| NeurIPS 2020     | [Unsupervised Learning of Dense Visual Representations](https://arxiv.org/pdf/2011.05499.pdf) | 39.2 | 35.6 |
+| arXiv:2011.09157 | [Dense Contrastive Learning for Self-Supervised Visual Pre-Training](https://arxiv.org/pdf/2011.09157.pdf) | 40.3 @COCO | 36.4 |
+| arXiv:2011.10043 | [Propagate Yourself: Exploring Pixel-Level Consistency for Unsupervised Visual Representation Learning](https://arxiv.org/pdf/2011.10043.pdf) | 41.4 | 37.4 |
+| arXiv:2102.08318 | [Instance Localization for Self-supervised Detection Pretraining](https://arxiv.org/pdf/2102.08318.pdf) | 42.0 | 37.6 |
+| arXiv:2103.06122 | [Spatially Consistent Representation Learning](https://arxiv.org/pdf/2103.06122.pdf) | 41.3 | 37.7 |
+| arXiv:2103.10957 | [Efficient Visual Pretraining with Contrastive Detection](https://arxiv.org/pdf/2103.10957.pdf) | 42.7 (DetCon_B) | 38.2 (DetCon_B) |
 
 
 
