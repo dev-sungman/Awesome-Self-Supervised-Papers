@@ -105,6 +105,7 @@ Collecting papers about Self-Supervised Learning, Representation Learning.
 | arXiv:2102.10106       | [Mine Your Own vieW: Self-Supervised Learning Through Across-Sample Prediction](https://arxiv.org/pdf/2102.10106.pdf) | Find similar samples         |
 | ECCV 2020              | [Mitigating Embedding and Class Assignment Mismatch in Unsupervised Image Classification](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123690749.pdf) | Feature embedding & refining |
 | arXiv:2102.11150       | [Improving Unsupervised Image Clustering With Robust Learning](https://arxiv.org/pdf/2012.11150.pdf) | Pseudo-label, clustering     |
+| CVPR 2021              | [How Well Do Self-Supervised Models Transfer?](https://arxiv.org/abs/2011.13377) | Benchmarking     |
 
 
 
