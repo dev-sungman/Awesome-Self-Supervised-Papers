@@ -1,13 +1,14 @@
-# Awesome-Self-Supervised-Papers
+Awesome-Self-Supervised-Papers
 
 Collecting papers about Self-Supervised Learning, Representation Learning.
 
 
 
-**Last Update : 2021. 04. 28.**
+**Last Update : 2021. 09. 26.**
 
-* Update papers about dense contrastive learning.
-* Update MoCo v3
+* Update papers that handles self-supervised learnning with distillation.
+  (Seed, Compress, DisCo, DoGo, SimDis ...)
+* Add a dense prediction paper (SoCo)
 
 
 
@@ -64,8 +65,7 @@ Collecting papers about Self-Supervised Learning, Representation Learning.
 | arXiv:2102.08318 | [Instance Localization for Self-supervised Detection Pretraining](https://arxiv.org/pdf/2102.08318.pdf) | 42.0 | 37.6 |
 | arXiv:2103.06122 | [Spatially Consistent Representation Learning](https://arxiv.org/pdf/2103.06122.pdf) | 41.3 | 37.7 |
 | arXiv:2103.10957 | [Efficient Visual Pretraining with Contrastive Detection](https://arxiv.org/pdf/2103.10957.pdf) | 42.7 (DetCon_B) | 38.2 (DetCon_B) |
-
-
+| arXiv:2106.02637 | [Aligning Pretraining for Detection via Object-Level Contrastive Learning](https://arxiv.org/pdf/2106.02637.pdf) | 43.2 | 38.4 |
 
 ### Image Transformation
 
@@ -78,6 +78,17 @@ Collecting papers about Self-Supervised Learning, Representation Learning.
 | CVPR 2020            | [Self-Supervised Learning of Pretext-Invariant Representations (PIRL)](https://arxiv.org/pdf/1912.01991.pdf) | 63.6 %                     |
 | CVPR 2020            | [Steering Self-Supervised Feature Learning Beyond Local Pixel Statistics](https://arxiv.org/pdf/2004.02331.pdf) | -                          |
 | arXiv:2003.04298     | [Multi-modal Self-Supervision from Generalized Data Transformations](https://arxiv.org/pdf/2003.04298.pdf) | -                          |
+
+### Self-supervised learning with Knowledge Distillation 
+
+| Conference / Journal | Paper                                                        | Method                                                  |
+| -------------------- | ------------------------------------------------------------ | ------------------------------------------------------- |
+| NeurIPS 2020         | [CompRess: Self-Supervised Learning by Compressing Representations](https://arxiv.org/pdf/2010.14713.pdf) | Similarity Distribution + Memory bank                   |
+| ICLR 2021            | [SEED: SELF-SUPERVISED DISTILLATION FOR VISUAL REPRESENTATION](https://arxiv.org/pdf/2101.04731.pdf) | Similarity Distribution + Memory bank                   |
+| arXiv:2104.09124     | [DisCo: Remedy Self-supervised Learning on Lightweight Models with Distilled Contrastive Learning](https://arxiv.org/pdf/2104.09124v3.pdf) | Contrastive Learning w/ Teacher Model                   |
+| arXiv:2104.09866     | [Distill on the Go: Online knowledge distillation in self-supervised learning](https://arxiv.org/pdf/2104.09866.pdf) | Contrastive Learnning w/ Teacher Model                  |
+| arXiv:2106.11304     | [Simple Distillation Baselines for Improving Small Self-supervised Models](https://arxiv.org/pdf/2106.11304.pdf) | Contrastive Learning w/ Teacher Model + Multi-view loss |
+| arXiv:2107.01691     | [Bag of Instances Aggregation Boosts Self-supervised Learning](https://arxiv.org/pdf/2107.01691.pdf) | Bag aggregation                                         |
 
 
 
@@ -105,7 +116,7 @@ Collecting papers about Self-Supervised Learning, Representation Learning.
 | arXiv:2102.10106       | [Mine Your Own vieW: Self-Supervised Learning Through Across-Sample Prediction](https://arxiv.org/pdf/2102.10106.pdf) | Find similar samples         |
 | ECCV 2020              | [Mitigating Embedding and Class Assignment Mismatch in Unsupervised Image Classification](https://www.ecva.net/papers/eccv_2020/papers_ECCV/papers/123690749.pdf) | Feature embedding & refining |
 | arXiv:2102.11150       | [Improving Unsupervised Image Clustering With Robust Learning](https://arxiv.org/pdf/2012.11150.pdf) | Pseudo-label, clustering     |
-| CVPR 2021              | [How Well Do Self-Supervised Models Transfer?](https://arxiv.org/abs/2011.13377) | Benchmarking     |
+| CVPR 2021              | [How Well Do Self-Supervised Models Transfer?](https://arxiv.org/abs/2011.13377) | Benchmarking     | 
 
 
 
