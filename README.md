@@ -87,8 +87,12 @@ Collecting papers about Self-Supervised Learning, Representation Learning.
 | ICLR 2021            | [SEED: SELF-SUPERVISED DISTILLATION FOR VISUAL REPRESENTATION](https://arxiv.org/pdf/2101.04731.pdf) | Similarity Distribution + Memory bank                   |
 | arXiv:2104.09124     | [DisCo: Remedy Self-supervised Learning on Lightweight Models with Distilled Contrastive Learning](https://arxiv.org/pdf/2104.09124v3.pdf) | Contrastive Learning w/ Teacher Model                   |
 | arXiv:2104.09866     | [Distill on the Go: Online knowledge distillation in self-supervised learning](https://arxiv.org/pdf/2104.09866.pdf) | Contrastive Learnning w/ Teacher Model                  |
+|arXiv:2104.14294 | [Emerging Properties in Self-Supervised Vision Transformers](https://arxiv.org/pdf/2104.14294.pdf) | Self Distillation w/ Teacher Model|
+| ICLR 2022 | [iBOT: Image BERT Pre-Training with Online Tokenizer](https://arxiv.org/pdf/2111.07832.pdf) | Self Distillation w/ Teacher Model + Masked Image Modeling|
 | arXiv:2106.11304     | [Simple Distillation Baselines for Improving Small Self-supervised Models](https://arxiv.org/pdf/2106.11304.pdf) | Contrastive Learning w/ Teacher Model + Multi-view loss |
 | arXiv:2107.01691     | [Bag of Instances Aggregation Boosts Self-supervised Learning](https://arxiv.org/pdf/2107.01691.pdf) | Bag aggregation                                         |
+
+
 
 
 
